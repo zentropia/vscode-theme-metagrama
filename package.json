@@ -1,0 +1,45 @@
+{
+	"name": "theme-metagrama",
+  "displayName": "Metagrama Theme",
+  "description": "Metagrama light theme for Visual Studio Code",
+	"version": "1.0.0",
+	"publisher": "Zentropia",
+  "author": {
+    "name" : "Luis Pabón",
+    "url" : "https://github.com/zentropia"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/zentropia/vscode-theme-metagrama/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zentropia/vscode-theme-metagrama.git"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#504945",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "Theme",
+    "Light theme",
+    "Gruvbox",
+    "Solarized",
+    "Sublime"
+  ],
+	"engines": {
+    "vscode": "^1.0.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Metagrama",
+        "uiTheme": "vs",
+        "path": "./themes/metagrama-color-theme.json"
+      }
+    ]
+  }
+}
