@@ -1,9 +1,9 @@
 {
-	"name": "theme-metagrama",
+  "name": "theme-metagrama",
   "displayName": "Metagrama Theme",
   "description": "Metagrama light theme for Visual Studio Code",
-	"version": "1.0.0",
-	"publisher": "Zentropia",
+  "version": "1.0.0",
+  "publisher": "Zentropia",
   "author": {
     "name" : "Luis Pabón",
     "url" : "https://github.com/zentropia"
@@ -30,7 +30,7 @@
     "Solarized",
     "Sublime"
   ],
-	"engines": {
+  "engines": {
     "vscode": "^1.0.0"
   },
   "contributes": {
